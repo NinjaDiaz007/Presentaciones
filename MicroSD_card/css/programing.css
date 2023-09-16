@@ -43,6 +43,9 @@ p,li{
 .titulo .cuerpo p{
 	font-size: 14px;
 }
+.titulo .cuerpo img{
+	width: 500px;
+}
 
 .titulo-cuerpo .cuerpo{
 	width: 80%;
@@ -86,6 +89,9 @@ p,li{
 	font-size: 40px;
 	width: 50%;
 	max-width: 50%;
+}
+.dos-columna .cuerpo .texto h2{
+	margin-bottom: 15px;
 }
 .dos-columna .cuerpo .imagen{
 	width: 50%;
@@ -155,3 +161,19 @@ p,li{
 	right: 10px;
 }
 /*=============================================*/
+
+@media (max-width: 1200px) {
+	.titulo .cuerpo h2{
+		font-size: 100px;
+	}
+	.titulo .cuerpo p{
+		font-size: 20px;
+	}
+
+	.titulo-cuerpo .cuerpo h2{
+		font-size: 60px;
+	}
+	.titulo-cuerpo .cuerpo p{
+		font-size: 22px;
+	}
+}
