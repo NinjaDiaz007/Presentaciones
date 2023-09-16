@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body{
+	font-size: 16px;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+}
+
+p,li{
+	font-family: 'Fira Code', monospace;
+	font-weight: 400;
+}
+
+/*=============================================*/
+/*=================Diapositivas================*/
+/*=============================================*/
+.slides{
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	color: #d9d9d9;
+	background-color: #1b1a26;
+	position: relative;
+}
+
+.titulo .cuerpo{
+	width: 80%;
+	height: 80%;
+	background-color: #2a283d;
+	color: #e4e4e2;
+	border-radius: 10px;
+	padding: 4% 0 0 6%;
+}
+.titulo .cuerpo h2{
+	width: 65%;
+	max-width: 65%;
+	font-size: 80px;
+}
+.titulo .cuerpo p{
+	font-size: 14px;
+}
+.titulo .cuerpo img{
+	width: 500px;
+}
+
+.titulo-cuerpo .cuerpo{
+	width: 80%;
+	height: 80%;
+	background-color: #2a283d;
+	color: #e4e4e2;
+	border-radius: 10px;
+	padding: 2% 0 0 3%;
+	position: relative;
+}
+.titulo-cuerpo .cuerpo h2{
+	font-size: 40px;
+}
+.titulo-cuerpo .cuerpo p{
+	max-width: 96%;
+	text-align: justify;
+}
+.titulo-cuerpo .cuerpo img{
+	width: 70%;
+	margin-left: 49%;
+	transform: translate(-50%);
+}
+.titulo-cuerpo .cuerpo ul{
+	margin-left: 2.3%;
+	max-width: 93%;
+	text-align: justify;
+	font-size: 17px;
+}
+
+.dos-columna .cuerpo{
+	width: 80%;
+	height: 80%;
+	background-color: #2a283d;
+	color: #e4e4e2;
+	border-radius: 10px;
+	padding: 2% 0 0 3%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.dos-columna .cuerpo .texto{
+	font-size: 40px;
+	width: 50%;
+	max-width: 50%;
+}
+.dos-columna .cuerpo .texto h2{
+	margin-bottom: 15px;
+}
+.dos-columna .cuerpo .imagen{
+	width: 50%;
+	max-width: 50%;
+	display: block;
+	position: relative;
+}
+.dos-columna .cuerpo .imagen img{
+	width: 85%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.imagen .cuerpo{
+	width: 80%;
+	height: 80%;
+	background-color: #2a283d;
+	color: #e4e4e2;
+	border-radius: 10px;
+	padding: 2% 0 0 3%;
+	position: relative;
+}
+.imagen .cuerpo h2{
+	font-size: 36px;
+}
+.imagen .cuerpo img{
+	width: 60%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+/*=============================================*/
+
+/*=============================================*/
+/*===============Icon de Ventana===============*/
+/*=============================================*/
+.menu-icon{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	padding: 10px;
+}
+.menu-icon img{
+	width: 16px;
+	height: 16px;
+}
+.menu-icon img:nth-child(2),
+.menu-icon img:nth-child(3){
+	margin-left: 7px;
+}
+
+.blanco{
+	filter: invert(99%) sepia(68%) saturate(0%) hue-rotate(117deg) brightness(87%) contrast(96%);
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=========Numeracion de Pie de Pagina=========*/
+/*=============================================*/
+.N-Pie{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+/*=============================================*/
+
+@media (max-width: 1200px) {
+	.titulo .cuerpo h2{
+		font-size: 100px;
+	}
+	.titulo .cuerpo p{
+		font-size: 20px;
+	}
+
+	.titulo-cuerpo .cuerpo h2{
+		font-size: 60px;
+	}
+	.titulo-cuerpo .cuerpo p{
+		font-size: 22px;
+	}
+}
