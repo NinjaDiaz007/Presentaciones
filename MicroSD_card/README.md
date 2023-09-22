@@ -11,7 +11,8 @@ La secuencia para poder conectar el modulo MicroSD a la Pico W en la siguiente t
 |D11|MOSI|
 |D13|SCK|
 |D9|CS|
-![](/img/esquema_fisico.jpg)
+
+![](./img/esquema_fisico.jpg)
 
 ## La Interfaz de MicroSD a Pico sin el modulo
 De esta forma tendremos una alternativa sin tener el modulo de tarjeta sd, podremos usar un adaptador normal que usamos para las computadoras y soldaremos lo pines que tiene pero hay dos formas de conectarlos en la siguiente tabla se presenta la primera forma.
@@ -28,4 +29,4 @@ De esta forma tendremos una alternativa sin tener el modulo de tarjeta sd, podre
 |9|---|---|
 
 La imagen siguiente es la segunda forma para poderlo conectarlo a la Pico.
-![](/img/Microsd_pinout.jpg)
+![](./img/Microsd_pinout.jpg)
