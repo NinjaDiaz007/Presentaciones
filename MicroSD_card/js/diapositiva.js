@@ -6,7 +6,7 @@ let ancho = sliderIndividual[0].clientWidth;
 let before = document.querySelector("#before");
 let next = document.querySelector("#next");
 
-/*next.addEventListener('click', ()=>{
+next.addEventListener('click', ()=>{
 	if(contador < sliderIndividual.length){
 		slider.style.transform = "translate("+(-ancho*contador)+"px)";
 	    slider.style.transition = "transform .8s";
@@ -20,7 +20,7 @@ before.addEventListener('click', ()=>{
 		slider.style.transform = "translate("+(-ancho*contador)+"px)";
 	    slider.style.transition = "transform .8s";
 	}
-});*/
+});
 
 function Init() {
 	document.onkeydown = Teclado;
