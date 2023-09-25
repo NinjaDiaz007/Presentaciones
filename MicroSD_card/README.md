@@ -43,3 +43,6 @@ De esta forma tendremos una alternativa sin tener el modulo de tarjeta sd, podre
 
 La imagen siguiente es la segunda forma para poderlo conectarlo a la Pico.
 ![](./img/Microsd_pinout.jpg)
+
+# Conclución
+El adaptador microSD para la Raspberry Pi Pico W es una herramienta fundamental que expande su capacidad de almacenamiento, lo que facilita el desarrollo de proyectos al permitir el almacenamiento de datos y programas de manera conveniente.

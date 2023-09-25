@@ -71,6 +71,10 @@ p,li{
 	text-align: justify;
 	font-size: 17px;
 }
+.titulo-cuerpo .cuerpo .movil,
+.titulo-cuerpo .cuerpo .web{
+	font-size: 26px;
+}
 .titulo-cuerpo .cuerpo .movil{
 	display: none;
 }
