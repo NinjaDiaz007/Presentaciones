@@ -54,11 +54,11 @@ p,li{
 	position: relative;
 }
 .titulo-cuerpo .cuerpo h2{
-	font-size: 40px;
+	font-size: 60px;
 }
 .titulo-cuerpo .cuerpo p{
-	max-width: 96%;
-	text-align: justify;
+	width: 100%;
+	font-size: 28px;
 }
 .titulo-cuerpo .cuerpo img{
 	width: 70%;
@@ -75,14 +75,14 @@ p,li{
 	display: none;
 }
 .titulo-cuerpo .cuerpo table{
-	width: 60%;
+	width: 70%;
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 15px;
 	border: 1px solid aliceblue;
 }
 .titulo-cuerpo .cuerpo table th,
 .titulo-cuerpo .cuerpo table td{
-	font-size: 18px;
+	font-size: 24px;
 	padding: 5px;
 	text-align: center;
 	border: 1px solid aliceblue;
@@ -235,12 +235,23 @@ p,li{
 	.titulo-cuerpo .cuerpo h2{
 		font-size: 50px;
 	}
+	.titulo-cuerpo .cuerpo p{
+		font-size: 20px;
+	}
 	.titulo-cuerpo .cuerpo .movil,
 	.titulo-cuerpo .cuerpo .web{
 		font-size: 25px;
 	}
-	.titulo-cuerpo .cuerpo table th, tr{
+	.titulo-cuerpo .cuerpo table{
+		width: 60%;
+		margin-top: 10px;
+	}
+	.titulo-cuerpo .cuerpo table th,
+	.titulo-cuerpo .cuerpo table td{
 		font-size: 18px;
+		padding: 5px;
+		text-align: center;
+		border: 1px solid aliceblue;
 	}
 
 	.dos-columna .cuerpo .texto h2{
