@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --oscuro: #131313;
+    --grisF: #2b2b2b;
+    --grisC: #3b3b3b;
+    --azul: #1561f0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial;
+    background-color: var(--oscuro);
+    color: aliceblue;
+    overflow-x: hidden;
+}
+
+
+/*=============================================*/
+/*==============Scroll de la Pagina============*/
+/*=============================================*/
+.scroll::-webkit-scrollbar{
+    width: 12px;
+    height: 12px;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background-color: var(--grisC);
+    border-radius: 5px;
+}
+.scroll::-webkit-scrollbar-thumb:hover{
+    background-color: aliceblue;
+}
+.scroll::-webkit-scrollbar-thumb:active{
+    background-color: var(--azul);
+}
+/*=============================================*/
+
+/*=============================================*/
+/*===========Encabesado de la Linea============*/
+/*=============================================*/
+.titulo{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grisF);
+}
+.titulo h1{
+    width: 70%;
+    margin: auto;
+    font-size: 50px;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=====Los puntos para la linea del tiempo=====*/
+/*=============================================*/
+.lineatiempo ul li{
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #fff;
+}
+.lineatiempo ul li::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+}
+
+.lineatiempo ul li div{
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+}
+
+.lineatiempo ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=========Alineacion para los inpares=========*/
+/*=============================================*/
+.lineatiempo ul li:nth-child(odd) div{
+    left: 45px;
+    background-color: var(--grisC);
+}
+.lineatiempo ul li:nth-child(odd) div::before{
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent var(--grisC) transparent transparent;
+}
+/*=============================================*/
+
+/*=============================================*/
+/*===========Alineacion para los pares=========*/
+/*=============================================*/
+.lineatiempo ul li:nth-child(even) div{
+    left: -439px;
+    background-color: var(--azul);
+}
+.lineatiempo ul li:nth-child(even) div::before{
+    content: '';
+    position: absolute;
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent var(--azul);
+}
+/*=============================================*/
+
+/*=============================================*/
+/*==================Pie de Pagina==============*/
+/*=============================================*/
+.pie-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: var(--grisF);
+}
+/*=============================================*/
+
+/*=============================================*/
+/*==========Referencias de la pagina===========*/
+/*=============================================*/
+.referencia{
+    width: 85%;
+    margin: auto;
+}
+.referencia p{
+    font-family: 'Times New Roman';
+}
+.referencia p a{
+    color: var(--azul);
+}
+.referencia p a:hover{
+    color: var(--grisC);
+}
+/*=============================================*/
+
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/
+/*=============================================*/

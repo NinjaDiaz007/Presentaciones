@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Linea del Tiempo 1.5 Esquema de Traducci&#243;n</title>
+
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/ciclope.css">
+        <link rel="stylesheet" href="./css/aos.css">
+        <link rel="icon" href="./img/tattoo.png">
+    </head>
+
+    <body class="scroll">
+        <section class="titulo">
+            <h1 class="text-1">1.5 Esquema de Traducci&#243;n de Lenguajes y Atomatas II</h1>
+        </section>
+
+        <section class="lineatiempo">
+            <ul>
+                <li>
+	                <div data-aos="fade-left" data-aos-duration="1500">
+	                    <h1 class="txt-30 mb-3">Esquema de traducci&#243;n</h1>
+	                    <p>Es una Gramática independiente del contexto en la que se asocian atributos
+                        con los símbolos gramaticales y se insertan acciones semánticas encerradas
+                        entre las llaves { } dentro de los lados derechos de las producciones.</p><br>
+                        <p>Este proceso normalmente cuenta con fases posteriores de la compilación o interpretación que requieren una representación de la entrada que facilita la ejecución de sus funciones de forma adecuada. Por eso se relacionan de manera estrecha la detección de errores y la representación de la información.</p>
+	                </div>
+                </li>
+
+                <li>
+	                <div data-aos="fade-right" data-aos-duration="1500">
+	                	<h1 class="txt-30 mb-3">Esquema</h1>
+	                    <img src="./img/traduccion-esquema.png" class="wd-10">
+	                </div>
+                </li>
+
+                <li>
+	                <div data-aos="fade-left" data-aos-duration="1500">
+	                    <h1 class="txt-30 mb-3">Requisitos para hacer un esquema de traducción</h1>
+                        <p class="ml-3">1. Conocer el lenguaje</p>
+                        <p class="ml-3">2. Símbolos gramaticales</p>
+                        <p class="ml-3">3. Acciones semánticas</p>
+                        <p class="ml-3">4. Reglas</p>
+	                </div>
+                </li>
+
+                <li>
+	                <div data-aos="fade-right" data-aos-duration="1500">
+	                    <h1 class="txt-30 mb-3">Proceso para gnerar un esquema de traducción</h1>
+	                    Un esquema de traducción dirigido por sintaxis se puede implementar construyendo
+                        el árbol de análisis sintáctico y luego realizar un recorrido en preorden del árbol
+                        ejecutando las acciones semánticas.
+	                </div>
+                </li>
+
+                <li>
+	                <div data-aos="fade-left" data-aos-duration="1500">
+	                    <h1 class="txt-30 mb-3">Usar un esquema de traducción</h1>
+	                    <p class="ml-3"><b>a)</b> Construir el árbol de análisis sintáctico ignorando las acciones semánticas.</p>
+                        <p class="ml-3"><b>b)</b> Adicionar nuevos hijos a cada símbolo de la parte izquierda como nuevos hijos que
+                            contienen las acciones semánticas en el punto donde ellas se deben realizar</p>
+                        <p class="ml-3"><b>c)</b> Recorrer en preorden el árbol de análisis sintáctico ejecutando las acciones.</p>
+	                </div>
+                </li>
+                
+                <li>
+	                <div data-aos="fade-right" data-aos-duration="1500">
+	                    <h1 class="txt-30 mb-3">Ejemplo de un esquema de traducción</h1>
+	                    <img src="./img/semantico-esquema-de-traducción.png" class="wd-10" alt="esquema de traducción">
+	                </div>
+                </li>
+
+                <li>
+	                <div data-aos="fade-left" data-aos-duration="1500">
+	                    <h1 class="txt-30 mb-3">Atributos del esquema de traducción</h1>
+	                    <p class="ml-3"><b>Atributo sintetizado:</b> es un atributo tal que su valor en un nodo se puede computar en términos de los atributos de los hijos del nodo.</p>
+                        <p class="ml-3"><b>Atributo heredado:</b> es aquel en el que el valor se computa a partir de los valores de sus hermanos y de su padre.</p>
+	                </div>
+                </li>
+
+                <li>
+                	<div data-aos="fade-right" data-aos-duration="1500">
+                		<img src="./img/esquema-de-traducción.png" class="wd-10">
+                	</div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="referencia mt-2">
+            <h1 class="text-1 txt-34 mt-4">Refencias</h1>
+            <p class="txt-14">
+                <span>(n.d.). Presentación de PowerPoint. Recuperado el 17 Febrero del 2023. </span>
+                <a class="ml-5" target="_blank" id="link1">https://enlinea.zacatecas.tecnm.mx/pluginfile.php/10834/mod_resource/content/1/1.5%20Esquemas%20de%20Traduccion.pdf</a>
+            </p>
+            <p class="txt-14 mt-2">
+                <span>Esquema de traducción ¡Fotos & Guía 2021! (n.d.). Esquema.net. Recuperado el 17 de Febrero del 2023. </span>
+                <a target="_blank" id="link2">https://esquema.net/traduccion/</a>
+            </p>
+        </section>
+
+        <footer class="pie-pagina mt-4">
+        	&copy; 2023 Diaz Gardu&#241;o Alan Fernando
+        </footer>
+
+        <script src="./js/referencia.js"></script>
+        <script src="./js/aos.js"></script>
+        <script type="text/javascript">
+        	AOS.init();
+        </script>
+    </body>
+</html>
